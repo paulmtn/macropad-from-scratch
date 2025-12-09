@@ -1,1 +1,1 @@
-Creating a keyboard from scratch starting with the PCB
+Creating a macropad from scratch starting with the PCB
