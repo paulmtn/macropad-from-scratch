@@ -1,4 +1,6 @@
 (design_block_lib_table
   (version 7)
-  (lib (name "MX_Alps_Hybrid.pretty")(type "KiCad")(uri "${KIPRJMOD}/modules/MX_V2/MX_Alps_Hybrid.pretty")(options "")(descr ""))
+  (lib (name "MX_Only.pretty")(type "KiCad")(uri "${KIPRJMOD}/modules/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
+  (lib (name "Schematic Library")(type "KiCad")(uri "${KIPRJMOD}/modules/random-keyboard-parts.pretty/Schematic Library")(options "")(descr ""))
+  (lib (name "Type-C.pretty")(type "KiCad")(uri "${KIPRJMOD}/modules/Type-C.pretty")(options "")(descr ""))
 )
