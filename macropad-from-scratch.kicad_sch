@@ -614,6 +614,157 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -2357,6 +2508,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2885,12 +3173,6 @@
 		(uuid "57989492-7fc1-4d1a-a8e0-3b6e9a0f0685")
 	)
 	(junction
-		(at 64.77 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b29a815-eac4-4e4c-b591-25296b36ca02")
-	)
-	(junction
 		(at 124.46 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2919,6 +3201,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be960b9-cf7f-414e-b408-a4e3fada1773")
+	)
+	(junction
+		(at 82.55 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3db96a6-01ca-4f63-aa58-fc6a0c63df28")
 	)
 	(junction
 		(at 74.93 27.94)
@@ -2955,6 +3243,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf1324b-de08-4235-8b5f-61527489f43a")
+	)
+	(junction
+		(at 72.39 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe27646-865a-431d-b4a5-b7a8db0d1d41")
 	)
 	(junction
 		(at 71.12 124.46)
@@ -3104,6 +3398,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 158.75) (xy 74.93 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1956e192-4b96-45ad-bbaa-d18765768101")
+	)
+	(wire
+		(pts
 			(xy 72.39 73.66) (xy 76.2 73.66)
 		)
 		(stroke
@@ -3161,6 +3465,16 @@
 			(type default)
 		)
 		(uuid "2286edaf-0125-4a02-a7e1-ca2b108d8258")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 143.51 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251eb3fe-6fb6-4cc5-8654-676c4058c53f")
 	)
 	(wire
 		(pts
@@ -3261,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "3c0d512b-9cc4-47e1-aa26-d940a1c6118b")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44764550-dc7d-40c5-97b9-d8b963459bbc")
 	)
 	(wire
 		(pts
@@ -3414,6 +3738,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 158.75) (xy 72.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c007fdf-4f2d-4b61-8b0d-75d4724ba86f")
+	)
+	(wire
+		(pts
 			(xy 68.58 138.43) (xy 68.58 142.24)
 		)
 		(stroke
@@ -3464,6 +3798,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 158.75) (xy 82.55 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b26528c-5eae-4f7a-b059-078c039fd96f")
+	)
+	(wire
+		(pts
 			(xy 115.57 20.32) (xy 115.57 29.21)
 		)
 		(stroke
@@ -3474,23 +3818,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 64.77 137.16)
+			(xy 63.5 137.16) (xy 66.04 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e168d50-31b0-410a-abcc-6e956ed78364")
-	)
-	(wire
-		(pts
-			(xy 128.27 91.44) (xy 143.51 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e286c5a-8ad8-4931-93f6-77ddb1d0075a")
 	)
 	(wire
 		(pts
@@ -3501,16 +3835,6 @@
 			(type default)
 		)
 		(uuid "82c86aa6-f7df-41f6-bbc7-6e03e44a7a52")
-	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 116.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "837c2b6a-9319-4671-897a-73c93b9d690e")
 	)
 	(wire
 		(pts
@@ -3584,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 93.98) (xy 143.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b2a8f7-ba43-4c25-80ca-33394787a66c")
+	)
+	(wire
+		(pts
 			(xy 67.31 35.56) (xy 74.93 35.56)
 		)
 		(stroke
@@ -3611,6 +3945,16 @@
 			(type default)
 		)
 		(uuid "9f1a8c17-62b3-4fa2-9e97-c4ef2ee6bc28")
+	)
+	(wire
+		(pts
+			(xy 80.01 158.75) (xy 82.55 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c556ed-64ee-4228-a629-c65dda441d8a")
 	)
 	(wire
 		(pts
@@ -3711,16 +4055,6 @@
 			(type default)
 		)
 		(uuid "b01489c7-360b-482c-98bf-65bb3c1b8dfb")
-	)
-	(wire
-		(pts
-			(xy 121.92 93.98) (xy 143.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b5ffaa-26ad-47ad-83ea-9451078260d6")
 	)
 	(wire
 		(pts
@@ -3844,16 +4178,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 134.62) (xy 66.04 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d55e1fee-0a35-4fd3-921a-eedf86cbb717")
-	)
-	(wire
-		(pts
 			(xy 63.5 114.3) (xy 74.93 114.3)
 		)
 		(stroke
@@ -3894,13 +4218,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 123.19 91.44)
+			(xy 111.76 124.46) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfd05888-03b7-4451-960c-d3de7da9e6eb")
+		(uuid "dc915e22-65d5-4806-a0ee-fe252b2cddfb")
 	)
 	(wire
 		(pts
@@ -3931,16 +4255,6 @@
 			(type default)
 		)
 		(uuid "ec3cc584-b4a8-44bb-bedf-a947d79a4095")
-	)
-	(wire
-		(pts
-			(xy 64.77 137.16) (xy 63.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec6eba35-684a-40bc-8440-fe2bf9f5402d")
 	)
 	(wire
 		(pts
@@ -4043,7 +4357,7 @@
 		(uuid "1467a9b7-6173-4dd7-89aa-df2e8806c754")
 	)
 	(label "D-"
-		(at 106.68 121.92 180)
+		(at 114.3 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4073,7 +4387,7 @@
 		(uuid "4c7dc4d4-c076-46d1-8117-b4970b605bdf")
 	)
 	(label "D+"
-		(at 111.76 91.44 0)
+		(at 139.7 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4427,7 @@
 		(uuid "ac0a56cf-0cf5-422a-9661-4344c4e652a0")
 	)
 	(label "D-"
-		(at 111.76 93.98 0)
+		(at 139.7 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4133,7 +4447,7 @@
 		(uuid "c2d77840-244d-4c47-b8c7-bbf21f0ccad5")
 	)
 	(label "D+"
-		(at 106.68 124.46 180)
+		(at 114.3 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4282,7 +4596,7 @@
 	)
 	(global_label "row3"
 		(shape input)
-		(at 173.99 132.08 0)
+		(at 173.99 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4292,7 +4606,7 @@
 		)
 		(uuid "424a3364-a0b9-43bb-aad8-2ce325673fed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4504 132.08 0)
+			(at 181.4504 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4728,7 @@
 	)
 	(global_label "row5"
 		(shape input)
-		(at 173.99 137.16 0)
+		(at 173.99 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4424,7 +4738,7 @@
 		)
 		(uuid "884607f7-40b5-4fa1-a4de-263f38c14757")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4504 137.16 0)
+			(at 181.4504 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4794,7 @@
 	)
 	(global_label "row1"
 		(shape input)
-		(at 173.99 127 0)
+		(at 173.99 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4490,7 +4804,7 @@
 		)
 		(uuid "b10ccd7e-982e-4003-9e9a-20d29fb7e423")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4504 127 0)
+			(at 181.4504 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4838,7 @@
 	)
 	(global_label "row4"
 		(shape input)
-		(at 173.99 134.62 0)
+		(at 173.99 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4534,7 +4848,7 @@
 		)
 		(uuid "bcdd9568-5b99-4a9e-850b-75426595c7d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4504 134.62 0)
+			(at 181.4504 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4904,7 @@
 	)
 	(global_label "row0"
 		(shape input)
-		(at 173.99 121.92 0)
+		(at 173.99 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4600,7 +4914,7 @@
 		)
 		(uuid "d436856b-e183-428e-ac8f-c08b526d0748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4504 121.92 0)
+			(at 181.4504 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4948,7 @@
 	)
 	(global_label "col5"
 		(shape input)
-		(at 173.99 139.7 0)
+		(at 173.99 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4644,7 +4958,7 @@
 		)
 		(uuid "e40d47f6-3c06-4ca9-82ea-b673bac732d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.0875 139.7 0)
+			(at 181.0875 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +5178,7 @@
 			(uuid "bbd65cce-3bf2-4963-8909-4f6e3bb2ef01")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "U2")
 					(unit 1)
@@ -5015,7 +5329,7 @@
 			(uuid "792861a5-7b66-4eb2-80fb-12ec752b8246")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "J1")
 					(unit 1)
@@ -5084,7 +5398,7 @@
 			(uuid "99726509-3679-4410-910e-a4143338b15c")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "R2")
 					(unit 1)
@@ -5150,7 +5464,7 @@
 			(uuid "c30a0dc3-0636-40a2-9a27-07e077065e06")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR04")
 					(unit 1)
@@ -5357,9 +5671,76 @@
 			(uuid "233b466d-9f89-4bf6-a103-391eb12e06fa")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 72.39 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2711a65f-6fc2-4bd8-a391-34f38a7e0e44")
+		(property "Reference" "#FLG04"
+			(at 70.485 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 68.58 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 72.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec61e7c-da80-43e7-a8c4-d9681795c24c")
+		)
+		(instances
+			(project "macropad-from-scratch"
+				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5804,7 @@
 			(uuid "904afcc7-1873-4ec0-91ac-bd80e52aa314")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR02")
 					(unit 1)
@@ -5496,7 +5877,7 @@
 			(uuid "9aaa1824-8eed-49bd-89f2-803b742b775a")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "Y1")
 					(unit 1)
@@ -5627,7 +6008,7 @@
 			(uuid "e0bd8a61-76ce-41a9-b870-bea3a20ca866")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR014")
 					(unit 1)
@@ -5636,16 +6017,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 64.77 137.16 180)
+		(lib_id "power:GND")
+		(at 82.55 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5875877d-b444-425a-b4ed-7b632ee7b20b")
-		(property "Reference" "#FLG02"
-			(at 64.77 139.065 0)
+		(fields_autoplaced yes)
+		(uuid "55c0d96d-00e2-4bed-b4bd-5c883e79cd1d")
+		(property "Reference" "#PWR018"
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,8 +6035,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 58.928 140.97 0)
+		(property "Value" "GND"
+			(at 82.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +6044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 137.16 0)
+			(at 82.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,8 +6052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 64.77 137.16 0)
+		(property "Datasheet" ""
+			(at 82.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,8 +6061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 64.77 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,12 +6071,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "18ff274c-0fac-478a-9d1a-ce9c88ff58dc")
+			(uuid "72cfb551-7c9b-419d-93be-03d6e152e587")
 		)
 		(instances
 			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
-					(reference "#FLG02")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5822,7 +6204,7 @@
 			(uuid "6e6d516a-3d37-437c-9028-ec3112c3161b")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR08")
 					(unit 1)
@@ -5887,7 +6269,7 @@
 			(uuid "0c43c543-1789-4b82-b533-bb6d2795fd6f")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#FLG01")
 					(unit 1)
@@ -6030,7 +6412,7 @@
 			(uuid "dce526ec-3bdc-48e2-a3a0-18c679eb4112")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "U1")
 					(unit 1)
@@ -6096,7 +6478,7 @@
 			(uuid "1f959d8a-6c88-40d4-9903-830b1fec4ebb")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR01")
 					(unit 1)
@@ -6166,7 +6548,7 @@
 			(uuid "24420b40-2cad-4314-975b-bc1c7c7271d6")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "C2")
 					(unit 1)
@@ -6176,7 +6558,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 125.73 91.44 90)
+		(at 109.22 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6185,7 +6567,7 @@
 		(fields_autoplaced yes)
 		(uuid "767ed3c3-f2f4-480a-9e2d-4b9a9b3917c4")
 		(property "Reference" "R4"
-			(at 125.73 86.36 90)
+			(at 109.22 119.38 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6193,7 +6575,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 125.73 88.9 90)
+			(at 109.22 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6583,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 125.73 91.44 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 91.44 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6601,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 125.73 91.44 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6616,7 @@
 			(uuid "e83e356d-05c2-4630-90f3-2c2f298ed4f2")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "R4")
 					(unit 1)
@@ -6300,7 +6682,7 @@
 			(uuid "52b53a2b-af48-4dd9-a1ea-f52489d26472")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR016")
 					(unit 1)
@@ -6369,9 +6751,75 @@
 			(uuid "ffa47cd6-75e9-41ce-9c84-60927661f458")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 72.39 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db36124-1f0e-4ada-8556-bd48ebe37141")
+		(property "Reference" "#PWR017"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 72.39 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 72.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "812874a5-a49c-4c99-8804-4e6ace9ddabb")
+		)
+		(instances
+			(project "macropad-from-scratch"
+				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6437,7 +6885,7 @@
 			(uuid "b6c8b188-cd98-4c68-9949-1f718528115d")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "SW85")
 					(unit 1)
@@ -6507,7 +6955,7 @@
 			(uuid "ce8c9d2f-361b-4b61-a0aa-5d9a210baf70")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "C5")
 					(unit 1)
@@ -6572,7 +7020,7 @@
 			(uuid "3697e6ef-fdab-4c1a-b917-02971b0dac33")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR06")
 					(unit 1)
@@ -6638,7 +7086,7 @@
 			(uuid "b8bf51ad-1f58-4e65-be92-32502d013b98")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR015")
 					(unit 1)
@@ -6708,7 +7156,7 @@
 			(uuid "e1dafb77-17f0-4adf-afed-8998b947c253")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "C3")
 					(unit 1)
@@ -6844,9 +7292,210 @@
 			(uuid "18a774d1-cf85-4370-b41c-1fce7305858b")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 82.55 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98f1235-1de2-4efd-8ba2-b86051e2d286")
+		(property "Reference" "#FLG05"
+			(at 84.455 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcee00e7-5e9e-4cf1-bce9-ee5fc66b736c")
+		)
+		(instances
+			(project "macropad-from-scratch"
+				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 77.47 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa67d1e9-421d-47a9-adc0-ef270eed328b")
+		(property "Reference" "FB1"
+			(at 77.4319 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "60@100MHz"
+			(at 77.4319 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 77.47 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 77.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1c0980d-ecd0-4d89-abc0-9fabe7841b94")
+		)
+		(pin "1"
+			(uuid "d1f501da-3d98-4710-8d23-25d0186f93fb")
+		)
+		(instances
+			(project "macropad-from-scratch"
+				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 66.04 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baf800c1-5099-4317-a44a-5380a173b120")
+		(property "Reference" "#PWR019"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "162aece2-2c29-4d59-bd2f-70d621beb8be")
+		)
+		(instances
+			(project "macropad-from-scratch"
+				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6910,7 +7559,7 @@
 			(uuid "4876acbb-ab3e-4fca-8521-4f809b69434f")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR013")
 					(unit 1)
@@ -6920,7 +7569,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 119.38 93.98 90)
+		(at 109.22 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6929,7 +7578,7 @@
 		(fields_autoplaced yes)
 		(uuid "e13c6cfe-7393-41d1-8cee-2b96cc4cff2a")
 		(property "Reference" "R3"
-			(at 119.38 88.9 90)
+			(at 109.22 116.84 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6937,7 +7586,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 119.38 91.44 90)
+			(at 109.22 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.38 93.98 0)
+			(at 109.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 93.98 0)
+			(at 109.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +7612,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 119.38 93.98 0)
+			(at 109.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7693,7 @@
 			(uuid "33b376a6-e2b7-4288-b849-391696f04eea")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR03")
 					(unit 1)
@@ -7110,7 +7759,7 @@
 			(uuid "6dc9cf8d-4b69-442a-95e0-c0965b091be0")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR011")
 					(unit 1)
@@ -7211,7 +7860,7 @@
 			(uuid "0852e14c-158a-4baf-bcc2-9f3efdc9ed58")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "USB1")
 					(unit 1)
@@ -7347,7 +7996,7 @@
 			(uuid "97e10176-b4e2-4494-acc1-5cb3c1596ec6")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR07")
 					(unit 1)
@@ -7417,7 +8066,7 @@
 			(uuid "5b29702d-d905-4bec-86a5-f9d5f315fb79")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "R7")
 					(unit 1)
@@ -7484,7 +8133,7 @@
 			(uuid "2fed2df2-2493-4c0b-a6eb-c04d06070b9e")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR05")
 					(unit 1)
@@ -7550,7 +8199,7 @@
 			(uuid "2c508cb7-8166-4cf7-b682-0c8e13f9ba0c")
 		)
 		(instances
-			(project ""
+			(project "macropad-from-scratch"
 				(path "/0fae814a-d850-41c2-80ee-052b623b3a63"
 					(reference "#PWR09")
 					(unit 1)
